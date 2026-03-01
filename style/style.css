@@ -1,0 +1,112 @@
+.table1 {
+	border: 3px solid magenta;
+	width: 40%;
+	height: 200px;
+
+	th, td {
+		border: 1px solid magenta;
+		padding: 5px;
+	}
+	td {
+		text-align: right;
+		vertical-align: top;
+	}
+	.col1 {
+		width: 150px;
+	}
+	.row2 {
+		height: 150px;
+	}
+}
+
+.table2 {
+	border: 1px solid green;
+	border-spacing: 20px;
+	width: 50%;
+	td {
+		border: 1px solid green;
+		padding: 0px;
+	}
+}
+
+.table3 {
+	border: 2px solid red;
+	border-spacing: 30px;
+	width: 75%;
+	td {
+		border: 1px solid red;
+		padding: 0px;
+	}
+	.one {
+		border: 1px solid cyan;
+	}
+	.six {
+		border: 1px solid green;
+	}
+}
+
+.table4 {
+	border: 1px solid cyan;
+	width: 50%;
+	border-collapse: collapse;
+	td, th{
+		border: 1px solid cyan;
+		padding: 10px;
+	}
+	.one {
+		color: blue;
+	}
+	.six {
+		color: pink;
+	}
+}
+.table5 {
+	width: 50%;
+	border: 1px solid red;
+	border-style: hidden solid hidden solid;
+	td {
+		border: 2px solid red;
+		border-style: hidden hidden solid hidden;
+	}
+	.green {
+		background-color: #55EF1B;
+		text-align: center;
+	}
+		#bot {
+		border: none;
+		}
+	
+}
+.table6 {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	th, td {
+		border: 1px solid gray;
+	}
+}
+.table7 {
+	border: 1px solid blue;
+	border-collapse: collapse;
+	width: 50%;
+	td {
+		border: 1px solid blue;
+	}
+	#pink {
+		background-color: #FE48F0;
+	}
+	#blue {
+		background-color: #7CBBF4;
+	}
+	#red {
+		background-color: #ED97B3;
+	}
+}
+.table8, .table8 td{
+	border: 1px solid cyan;
+	.table8_1 td {
+		border: 1px solid pink;
+	}
+	.table8_2 td {
+		border: 1px solid violet;
+	}
+}
